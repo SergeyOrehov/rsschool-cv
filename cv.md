@@ -16,3 +16,28 @@ My favorite subjects at school were mathematics and physics.Therefore, the direc
 I finished several courses on website layout, took a little training in JavaScript. I am actively studying English. My goal is to get a job in a large IT company, where I can fully realize myself.
 
 ---
+## Skills:
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
+- **Programs:** 
+    * Photoshop
+    * VS code
+    * AutoCad
+- **GitHub** 
+- **JavaScript library( jQuery )**
+- **CSS framework( Bootstrap )**
+---
+## Code Examples:
+```
+function absentVowel(x) {
+  let arrayWhole = ["a","e","i","o","u"];
+  let string = x;
+  for(let i = 0; i <= arrayWhole.length - 1; i++ ) {
+    if(x.indexOf(arrayWhole[i]) == -1 ) {
+      return i
+    };
+  };
+};
+```
+---
