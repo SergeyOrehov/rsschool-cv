@@ -57,7 +57,7 @@ My speciality - energy engineer
 - **IT-Academy Minsk**
   - Website development using HTML, CSS and JavaScript
 
-## Expiriens:
+## Experience:
 
 My portfolio can be assessed at [freelance.ru](https://freelance.ru/sergejorehov)
 
