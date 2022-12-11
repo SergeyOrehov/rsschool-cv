@@ -43,3 +43,16 @@ function absentVowel(x) {
   };
 };
 ```
+
+## Education:
+
+**Belarusian National Technical University (from 2009 to 2014)**  
+My speciality - energy engineer
+
+## Trainyng courses:
+
+- **Educational platform WayUp**
+  - Online course: Web layout designer
+  - Online course: Javascript: Dive
+- **IT-Academy Minsk**
+  - Website development using HTML, CSS and JavaScript
