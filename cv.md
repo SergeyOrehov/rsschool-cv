@@ -29,3 +29,17 @@ I finished several courses on website layout, took a little training in JavaScri
 - **GitHub**
 - **JavaScript library( jQuery )**
 - **CSS framework( Bootstrap )**
+
+## Code Examples:
+
+```
+function absentVowel(x) {
+  let arrayWhole = ["a","e","i","o","u"];
+  let string = x;
+  for(let i = 0; i <= arrayWhole.length - 1; i++ ) {
+    if(x.indexOf(arrayWhole[i]) == -1 ) {
+      return i
+    };
+  };
+};
+```
