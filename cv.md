@@ -56,3 +56,12 @@ My speciality - energy engineer
   - Online course: Javascript: Dive
 - **IT-Academy Minsk**
   - Website development using HTML, CSS and JavaScript
+
+## Expiriens:
+
+My portfolio can be assessed at [freelance.ru](https://freelance.ru/sergejorehov)
+
+## Languages:
+
+- Russian - Native
+- My English level based on EPAM training center - A1
