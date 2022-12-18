@@ -1,0 +1,337 @@
+/* ------ Подключение шрифтов ------ */
+@font-face {
+  font-family: "Museo Sans 300";
+  src: url("../fonts/MuseoSansCyrl-300.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/MuseoSansCyrl-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/MuseoSansCyrl-300.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/MuseoSansCyrl-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Museo Sans 700";
+  src: url("../fonts/MuseoSansCyrl-700.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/MuseoSansCyrl-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/MuseoSansCyrl-700.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/MuseoSansCyrl-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700") format("svg"); /* Legacy iOS */
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Museo Sans 300", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0em;
+  font-size: 14px;
+  overflow-x: hidden;
+  background: #000;
+}
+
+div,
+p,
+button,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+  font-size: 17px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: rgb(150, 65, 138);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Museo Sans 700", "Arial", sans-serif;
+  color: #081d42;
+  line-height: 1.3em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 45px;
+  color: #fff;
+  padding-left: 55px;
+}
+
+h2 {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  margin: 0 20px;
+}
+
+aside h2 {
+  display: block;
+  background: #646bbc;
+  color: white;
+  margin-top: 30px;
+}
+
+.line-h2 {
+  margin-bottom: 15px;
+  margin-top: 35px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin: auto;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  padding-left: 100px;
+}
+
+.central-block {
+  width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+}
+
+.header {
+  background: url("../img/header-bg.jpg") no-repeat center top / cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.myPhoto {
+  width: 35%;
+  position: relative;
+}
+
+.myName {
+  width: 65%;
+}
+
+.imgFoto {
+  width: 260px;
+  height: 338px;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  border: 7px solid rgba(237, 223, 215);
+}
+
+.left-column {
+  width: 33%;
+  background: #68655996;
+  text-align: center;
+  padding: 230px 20px 20px 20px;
+}
+
+.right-column {
+  width: 65%;
+  text-align: center;
+  padding: 10px 50px 0;
+  background: #f3f2f1;
+}
+
+/* ------ Секция Contacts ------ */
+
+.contacts ul {
+  padding-left: 10px;
+}
+
+.icon {
+  height: 30px;
+  margin-right: 15px;
+}
+
+.contacts p {
+  line-height: 1.8;
+}
+
+/* ------ Секция skills ------ */
+
+.list {
+  text-align: left;
+  list-style-image: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.skills .list ul {
+  list-style-type: circle;
+  list-style-image: none;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.list li li {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+/* ------ Секция SHORTY ABOUT MYSELF ------ */
+
+.about {
+  margin-bottom: 30px;
+}
+
+/* ------ Секция Education ------ */
+
+.education {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.category {
+  font-weight: bold;
+  width: 38%;
+  max-width: 300px;
+  margin-bottom: 15px;
+}
+
+/* ------ Секция Code exsamples ------ */
+pre {
+  text-align: left;
+  margin: 0;
+}
+
+/* ------ Секция Expiriens ------ */
+
+.expiriens {
+  text-align: center;
+  padding: 0 30px 20px;
+  background: #f3f2f1;
+  position: relative;
+}
+
+.line_after {
+  flex-basis: 26%;
+}
+
+.line_before {
+  flex-basis: 24%;
+}
+.empty {
+  flex-basis: 45%;
+}
+
+.expiriens h2 {
+  flex-basis: 12%;
+}
+
+.expiriens .line-h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.examples {
+  justify-content: space-between;
+  padding: 0;
+}
+
+.overview {
+  position: relative;
+  max-width: 170px;
+  outline: 7px solid rgb(192 188 47);
+  outline-offset: -7px;
+}
+.overview__img {
+  display: block;
+  width: 100%;
+}
+
+.overview__overlay {
+  opacity: 0;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overview__link {
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+}
+
+.overview__overlay:hover {
+  opacity: 1;
+  background-color: rgba(58, 68, 86, 0.69);
+  transition: all 0.2s ease;
+  outline: 7px solid rgba(154, 151, 167, 1);
+  outline-offset: -7px;
+}
+
+.overview__overlay i {
+  position: absolute;
+  top: 65px;
+  left: -13px;
+}
+
+/* ------ Секция Footer ------ */
+.footer {
+  background: url("../img/header-bg.jpg") no-repeat center top / cover;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  height: 30px;
+}
+
+.footer p {
+  font-weight: bold;
+}
+
+.github img {
+  margin-right: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+}
