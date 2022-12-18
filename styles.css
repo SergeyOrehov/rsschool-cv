@@ -236,9 +236,9 @@ pre {
   margin: 0;
 }
 
-/* ------ Секция Expiriens ------ */
+/* ------ Секция Experience ------ */
 
-.expiriens {
+.experience {
   text-align: center;
   padding: 0 30px 20px;
   background: #f3f2f1;
@@ -256,11 +256,11 @@ pre {
   flex-basis: 45%;
 }
 
-.expiriens h2 {
+.experience h2 {
   flex-basis: 12%;
 }
 
-.expiriens .line-h2 {
+.experience .line-h2 {
   margin-top: 0;
   margin-bottom: 25px;
 }
